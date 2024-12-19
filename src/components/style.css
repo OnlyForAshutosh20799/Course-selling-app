@@ -1,0 +1,151 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #eef2f3;
+}
+
+.signup-box {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.signup-left, .signup-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.signup-left {
+  background-color: #1a73e8;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-left img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.signup-left-heading {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.signup-left-para {
+  font-size: 1rem;
+}
+
+.signup-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-right form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-right input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-right button {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-right button:hover {
+  background-color: #155bb5;
+}
+
+.signup_login-Link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup_login-Link a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.signup_login-Link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-box {
+    flex-direction: column;
+  }
+
+  .signup-left {
+    padding: 20px 10px;
+  }
+
+  .signup-left-heading {
+    font-size: 1.5rem;
+  }
+
+  .signup-left-para {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup-right input {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .signup-right button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .signup-left img {
+    max-width: 60%;
+  }
+
+  .signup-left-heading {
+    font-size: 1.3rem;
+  }
+
+  .signup-left-para {
+    font-size: 0.8rem;
+  }
+}

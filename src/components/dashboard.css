@@ -1,0 +1,151 @@
+.dashboard-main-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #f3b1f3, rgb(200, 200, 211));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-container {
+  width: 95%;
+  height: 95vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.nav-container {
+  width: 20%;
+  height: 95vh;
+  background-color: #7033FF;
+  padding: 10px;
+}
+.main-container {
+  width: 80%;
+  height: 95vh;
+  background-color: white;
+}
+.top-bar {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px;
+  gap: 20px;
+}
+.logo-container {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-logo {
+  width: 50px;
+  height: 50px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+.profile-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+.logout-btn {
+  background-color: #ad0b1e;
+  color: rgb(192, 188, 188);
+  padding: 5px 8px;
+  width: fit-content;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+/* side navbar */
+
+.brand-container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.brand-name{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.brand-slogan{
+    font-size: 12px;
+    color: yellow;
+   
+}
+.menu-container{
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.menu-link {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.menu-active-link{
+  color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    background-color: #371783ce;
+}
+.menu-icon{
+  height: 18px;
+  margin-bottom: 3px;
+}
+
+
+.menu-link:hover{
+    background-color: #371783ce;
+    transition: 0.5s ease-in-out;
+}
+.contact-us{
+    position: absolute;
+    bottom: 5vh;
+    color: white;
+}
+.contact-us p{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.contact-us i{
+    margin-right: 5px;
+}
