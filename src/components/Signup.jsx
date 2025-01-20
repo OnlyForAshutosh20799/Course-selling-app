@@ -68,7 +68,7 @@ function Signup() {
                 <div className='signup-box'>
                     <div className='signup-left'>
                         <img className='book-logo' src={bookLogo} alt="Book" />
-                        <h1 className='signup-left-heading'>RJ Online Classes</h1>
+                        <h1 className='signup-left-heading'>Ashutosh Online Classes</h1>
                         <p className='signup-left-para'>Manage your all data in easy way</p>
                     </div>
                     <div className='signup-right'>

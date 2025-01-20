@@ -61,7 +61,7 @@ function Signup() {
                             <button  type='submit'>{loading &&<i class="fa-solid fa-spinner fa-spin-pulse"></i>  }
                                Login
                             </button>
-                            <span className='signup_login-Link'> <Link to="/signup">Creaet Account</Link> </span>
+                            <span className='signup_login-Link'> <Link to="/signup">Create Account</Link> </span>
 
                         </form>
                     </div>
